@@ -1,0 +1,137 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.sticky-header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #0077cc;
+    z-index: 100;
+}
+
+.logo a {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 50px;
+}
+
+.nav-links a {
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ffd700; /* Accent color on hover */
+}
+
+/* Container Class */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 10%;
+}
+
+/* Section Styles */
+section {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+}
+
+.hero-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #005fa3;
+}
+
+/* Other Section Styles */
+.about-section,
+.education-section,
+.experience-section,
+.projects-section,
+.contact-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    text-align: center;
+}
+
+.about-content h1,
+.education-content h1,
+.experience-content h1,
+.projects-content h1,
+.contact-content h1{
+    font-size: 48px;
+    margin-bottom:10px;
+}
+
+.about-content p,
+.education-content p,
+.experience-content p,
+.projects-content p,
+.contact-content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
